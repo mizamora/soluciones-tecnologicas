@@ -449,7 +449,7 @@ void main (void){
 		buf[0]=MAG_START_DATA;
 
 		if(write(file,buf,1)!=1){
-			printf("Failed to write magne address to the i2c bus.\n");
+			printf("Failed to write magne address to the i2c bus.\n")
 			exit(1);
 		}
 
